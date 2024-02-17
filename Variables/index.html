@@ -1,1 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Variables</h1>
+
+    <!--InPage JavaScript-->
+    <script>
+
+        // Variables declared by using let and also initialize them.
+        let name = "Abdullah";
+        let Name = "Some other name";
+        let nationality = "Pakistan";
+
+        // Variable declared by using const and also initialize it.
+        const myName = "Abdullah";
+        alert("Hi my name is " + myName);
+
+        // Using the above three variables.
+        document.write("Name: " + name + "<br>");
+        document.write("Name: " + Name + "<br>");
+        document.write("Nationality: " + nationality + "<br>");
+
+        // Variable without declaration.
+        name = "Ahmad";
+        console.log(name);
+
+        // Adding two strings by using variables.
+        let country = "Pakistan";
+        let city = "Karachi";
+        let result = country + city;
+        document.write("Result: ", result + "<br>");
+
+        // Adding two numbers by using variables.
+        let a = 9;
+        let b = 15;
+        let c = a + b;
+        alert(c);
+        console.log(c);
+        document.write(c + "<br>");
+
+        // Variables declared by using var and initialize them.
+        var x = 1;
+        var x = 2;
+        document.write(x);
+
+
+    </script>
+
+</body>
+
+</html>
